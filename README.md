@@ -29,6 +29,4 @@ INSTALLATION:
 AUTHOR:
 -------
 
-Pavel Linkesch
-http://linkesch.sk
-@linkesch
+Pavel Linkesch (http://linkesch.sk, @linkesch)
