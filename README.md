@@ -6,7 +6,7 @@ This problem occures especially in Internet Explorer 8 running on Windows XP.
 
 EXAMPLE: http://examples.linkesch.sk/IEBoldOpacityFix/
 
-The origianl solution was found here: http://jszen.blogspot.sk/2005/04/ie-bold-text-opacity-problem.html
+The original solution was found here: http://jszen.blogspot.sk/2005/04/ie-bold-text-opacity-problem.html
 
 This little piece of code, IE Bold Opacity Fix, just finds all elements with IE's aplha opacity and sets their backgrounds to parents' background colors.
 If parent's background color isn't a solid color, but IE's filter gradient, the background will be set to transparent gradient.
