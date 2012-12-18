@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<!--
+PREREQUISITES: jQuery
+
+INSTALLATION:
+1. Download jquery.IEBoldOpacityFix.js
+2. Insert <script src="js/jquery.IEBoldOpacityFix.js" type="text/javascript"></script> to <head>    
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>IE Bold Opacity Fix</title>
+    
+    
+    
+    <!-- Only example CSS styles -->
+    <style type="text/css">
+      body {
+        font-family: Arial;
+        font-size: 9pt;
+        margin: 20px;
+        background: #015391;
+      }
+      
+      img {
+        border: 4px solid #ccc;
+        padding: 2px;
+      }
+            
+      .container {
+        width: 560px;
+        padding: 20px;
+        margin: 10px auto;        
+      }
+      
+      .background {
+        background: #fff;
+      }
+      
+      .backgroundYellow {
+        background: #fbf4aa;
+      }
+      
+      .opacity {
+        filter: alpha(opacity=50);
+      }
+      
+      .opacity100 {
+        filter: alpha(opacity=100);
+      }
+    </style>
+    
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <!--
+    The only thing to install is to insert this to <head>:
+       
+    <script src="js/jquery.IEBoldOpacityFix.js" type="text/javascript"></script>
+    -->
+    
+    <script type="text/javascript">
+      /**
+       * This is only for demonstration purposes!
+       */
+      $(document).ready(function () {
+        $('#use-fix').click(function () {
+          $('head').append('<script src="js/jquery.IEBoldOpacityFix.js" type="text/javascript" />');
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container background">
+      <div class="opacity">
+        <h1>IE Bold Opacity Fix</h1>
+      
+        <p>It is a known issue, that <b>IE's alpha opacity ruins bold</b> text.</p>
+        <p>This problem occures especially in <b>Internet Explorer 8 running on Windows XP</b>.</p>    
+      </div>
+    </div>
+    
+    <div class="container background">
+      <p>If you're using MSIE 8 the header above and all bold text on this website will look like this:</p>
+      <p><img src="img/example01.png" alt="example" /></p>
+    </div>
+    
+    <div class="container background">  
+      <div class="opacity100">
+        <p>This <b>problem persists</b> even if opacity is set to 100.</p>
+      </div>
+    </div>
+
+    <div class="container backgroundYellow">  
+      <div class="opacity100">
+        <h2>Now try to use IEBoldOpacityFix</h2>
+        <button id="use-fix">Use IEBoldOpacityFix</button>
+      </div>
+    </div>
+
+    <div class="container" style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5FFFFFF,endColorstr=#e5FFFFFF);">
+      <div class="opacity">
+        <p>This is demonstration how it works with <b>filter: progid:DXImageTransform.Microsoft.gradient</b>.</p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="opacity">
+        <p>jquery.IEBoldOpacityFix.js works even on elements with parents with <b>no or transparent backgrounds</b>.</p>
+      </div>
+    </div>
+  </body>
+</html>
