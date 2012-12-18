@@ -13,16 +13,21 @@ If parent's background color isn't a solid color, but IE's filter gradient, the 
 Those two tricks will prevent MSIE8 bug in rendering bold text on alpha opacity.
 
 
-PREREQUISITES: jQuery
+PREREQUISITES:
+--------------
+
+jQuery
 
 
 INSTALLATION:
+-------------
 
 1. Download jquery.IEBoldOpacityFix.js from 
 2. Insert <script src="jquery.IEBoldOpacityFix.js" type="text/javascript"></script> to <head>    
 
 
 AUTHOR:
+-------
 
 Pavel Linkesch
 linkesch.sk
