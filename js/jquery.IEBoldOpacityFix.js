@@ -1,7 +1,8 @@
 /**
  * IE Bold Opacity Fix
  * 
- * Author: Pavel Linkesch (linkesch.sk, @linkesch)
+ * Source: https://github.com/orthes/IEBoldOpacityFix
+ * Author: Pavel Linkesch (http://linkesch.sk, @linkesch)
  */
 
 $(document).ready(function () {

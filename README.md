@@ -22,13 +22,13 @@ jQuery
 INSTALLATION:
 -------------
 
-1. Download jquery.IEBoldOpacityFix.js from 
-2. Insert <script src="jquery.IEBoldOpacityFix.js" type="text/javascript"></script> to <head>    
+1. Download jquery.IEBoldOpacityFix.js from https://github.com/orthes/IEBoldOpacityFix
+2. Insert ```<script src="jquery.IEBoldOpacityFix.js" type="text/javascript"></script>``` to your website    
 
 
 AUTHOR:
 -------
 
 Pavel Linkesch
-linkesch.sk
+http://linkesch.sk
 @linkesch
