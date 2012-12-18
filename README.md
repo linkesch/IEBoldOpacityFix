@@ -4,7 +4,7 @@ IE Bold Opacity Fix
 It is a known issue, that IE's alpha opacity ruins bold text.
 This problem occures especially in Internet Explorer 8 running on Windows XP.
 
-EXAMPLE: http://www.linkesch.sk/IEBoldOpacityFix/
+EXAMPLE: http://examples.linkesch.sk/IEBoldOpacityFix/
 
 The origianl solution was found here: http://jszen.blogspot.sk/2005/04/ie-bold-text-opacity-problem.html
 
